@@ -1,0 +1,74 @@
+body{
+    color: white;
+    text-align: center;
+    background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/0kjHIH6/fireflies-flying-on-a-starry-night-background_b0kcdjrig_thumbnail-full01.png);
+  } 
+  .balls{
+      border-radius: 50%;
+      position: fixed;
+      width: 50px;
+      height: 50px;
+      margin-top: 50px;
+      animation-name: bounce;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+    #red {
+      background: red;
+      left: 26%;
+      animation-timing-function: cubic-bezier(0, 0, 0.38, 1);
+    }
+    #blue {
+      background: blue;
+      left: 56%;
+      animation-timing-function: ease-out;
+    }
+  #green {
+    background: green;
+    left: 46%;
+    animation-timing-function: linear;
+  }
+  #yellow {
+    background: yellow;
+    left: 36%;
+    animation-timing-function: ease-out;
+  }
+  #orange{
+    background: orange;
+    left: 66%;
+    animation-timing-function: cubic-bezier(0, 0, 0.68, 2);
+  }
+  #purple{
+    background: purple;
+    left: 76%;
+    animation-timing-function: linear;
+  }
+  #white {
+      background: white;
+      left: 16%;
+      animation-timing-function: cubic-bezier(0, 0, 0.58, 0.60);
+  }
+   #cyan {
+      background: cyan;
+      left: 86%;
+      animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+    }
+   #magenta {
+      background: magenta;
+      left: 6%;
+      animation-timing-function: ease-out;
+    }
+   #silver {
+      background: silver;
+      left: 96%;
+      animation-timing-function: cubic-bezier(0, 0, 0.58, 1.6);
+    }
+    @keyframes bounce {
+      0% {
+        top: 20px;
+      }
+      100% {
+        top: 449px;
+      }
+    }
+    
